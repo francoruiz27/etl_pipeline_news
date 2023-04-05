@@ -1,0 +1,24 @@
+news_sites:
+  lanacion:
+    type: 'html'
+    url: https://www.lanacion.com.ar
+    queries:
+      homepage_article_links: '.com-title a'
+      article_title: '.--threexl'
+      article_subtitle: '.--bajada'
+  clarin:
+    type: 'html'
+    url: https://www.clarin.com
+    queries:
+      homepage_article_links: '.link_article'
+      article_title: 'h1'
+      article_subtitle: 'h2'
+  NYTimes:
+    type: 'api'
+    url: https://www.nytimes.com
+    queries:
+      homepage_article_links: ''
+      article_title: ''
+      article_subtitle: ''
+
+
